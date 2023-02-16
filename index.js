@@ -38,6 +38,7 @@ btn.onclick = () => {
     gridSize = parseInt(gridSize);
     if (gridSize > 100) {
         alert('Grid size must be under 100!');
+        return;
     }
     generateGrid(gridSize);
 }
