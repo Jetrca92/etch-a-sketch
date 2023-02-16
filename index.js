@@ -19,6 +19,8 @@ function generateGrid(gridSize) {
         for (let i = 0; i < gridSize; i++) {
             const grid = document.createElement('div');
             grid.setAttribute('class', 'grid');
+            grid.style.width = Math.floor(960 / gridSize) + "px";
+            grid.style.height = Math.floor(960 / gridSize) + "px";
             row.appendChild(grid);
         }
     }
