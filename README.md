@@ -3,4 +3,4 @@ This project is a simple Etch A Sketch program built using HTML, CSS, and JavaSc
 
 The user can change the size of the grid by clicking the "Click to change grid size" button, which will prompt the user for a new size (in the format of a number between 1 and 100). The grid will then update to the new size, and the user can continue drawing on the new grid.
 
-[Live Demo](https://michalosman.github.io/etch-a-sketch/) :point_left:
+[Live Demo](https://jetrca92.github.io/etch-a-sketch/) :point_left:
