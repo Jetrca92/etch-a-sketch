@@ -10,11 +10,15 @@
 }
 
 .grid {
-    width: auto;
-    height: auto;
+    width: 30px;
+    height: 30px;
     border-style: solid;
     margin: 1px;
     ;
+}
+
+.hover {
+    background-color: red;
 }
 
 #container {
