@@ -37,7 +37,7 @@ btn.onclick = () => {
     let gridSize = prompt('Grid size (if input 10, grid size 10x10)?');
     gridSize = parseInt(gridSize);
     if (gridSize > 100) {
-        alert('Grid size must be under 100!');
+        alert('Grid size must be 100 or less!');
         return;
     }
     generateGrid(gridSize);
