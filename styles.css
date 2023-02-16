@@ -1,3 +1,9 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .btn-center {
     text-align: center;
     margin-bottom: 10px;
@@ -8,20 +14,13 @@
     justify-content: center;
     align-content: center;
     margin: 1px;
-}
-
-.grid {
     border-style: solid;
-    margin: 1px;
-    
+    width: 720px;
+    height: 720px;
 }
 
 .hover {
     background-color: red;
 }
 
-#container {
-    width: 960px;
-    height: auto;
-}
 
